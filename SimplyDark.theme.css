@@ -41,3 +41,41 @@
     --SD-font: 'Roboto';
 
 }
+
+/***** Add 2 columns *****/
+
+/* Make more space in the sidebar */
+.wrapper-3NnKdC {
+	width: 144px;
+}
+.base-3dtUhz {
+	left: 144px;
+}
+
+/* Wrap servers into 2 columns */
+.scroller-1Bvpku > div[aria-label="Servers"] {
+	display: flex;
+	flex-direction: row;
+	width: 144px;
+	flex-wrap: wrap;
+}
+
+/* Center and resize server separator */
+.scroller-1Bvpku > div.listItem-GuPuDH {
+	width: 144px;
+}
+.guildSeparator-33mFX6 {
+	width: 64px;
+}
+
+/* Center Home button */
+.tutorialContainer-2sGCg9 {
+	display: flex;
+	justify-content: center;
+}
+
+/* Square Server Icons */
+svg > foreignObject {
+	mask: none;
+}
+
