@@ -44,12 +44,12 @@
 
 /***** Add 2 columns *****/
 
-/* Make more space in the sidebar */
+/* Make more space in the sidebar (extra 8px for scrollbar) */
 .wrapper-3NnKdC {
-	width: 144px;
+	width: 152px;
 }
 .base-3dtUhz {
-	left: 144px;
+	left: 152px;
 }
 
 /* Wrap servers into 2 columns */
