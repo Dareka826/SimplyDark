@@ -64,3 +64,8 @@ svg > foreignObject {
 	mask: none;
 }
 
+/* Adjust unread notifs width */
+.unreadMentionsIndicatorBottom-2mDYbI, .unreadMentionsIndicatorTop-2-tcdU {
+	width: 144px;
+}
+
