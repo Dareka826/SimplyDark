@@ -33,12 +33,12 @@
 /***** Add 2 columns *****/
 
 /* Make space for 2 columns */
-.wrapper-3NnKdC {
+.wrapper-1_HaEi {
 	width: 144px;
 }
 
 /* Wrap servers into 2 columns */
-.scroller-1Bvpku > div[aria-label="Servers"] {
+.scroller-3X7KbA > div[aria-label="Servers"] {
 	display: flex;
 	flex-direction: row;
 	width: 144px;
@@ -46,15 +46,15 @@
 }
 
 /* Center and resize server separator */
-.scroller-1Bvpku > div.listItem-GuPuDH {
+.scroller-3X7KbA > div.listItem-3SmSlK {
 	width: 144px;
 }
-.guildSeparator-33mFX6 {
+.guildSeparator-a4uisj {
 	width: 64px;
 }
 
 /* Center Home button */
-.tutorialContainer-2sGCg9 {
+.tutorialContainer-1pL9QS {
 	display: flex;
 	justify-content: center;
 }
@@ -65,7 +65,7 @@ svg > foreignObject {
 }
 
 /* Adjust unread notifs width */
-.unreadMentionsIndicatorBottom-2mDYbI, .unreadMentionsIndicatorTop-2-tcdU {
+.unreadMentionsIndicatorBottom-3RJMnQ, .unreadMentionsIndicatorTop-2bTgUU {
 	width: 144px;
 }
 
