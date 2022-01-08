@@ -23,8 +23,7 @@
 	.markup-2BOw-j code,
 	.textContainer-C0szpm,
 	.wrapper-35wsBm,
-	.wrapperAudio-1jDe0Q,
-	.attachment-33OFj0 {
+	.wrapperAudio-1jDe0Q {
 		border: none;
 		@include hsl(4%);
 	}
@@ -55,7 +54,7 @@
 	// Mention
 	.mentioned-xhSam7 {
 		background: rgb(var(--accent), .1);
-		&::before {
+		&:before {
 			background: rgb(var(--accent));
 		}
 	}
@@ -80,6 +79,34 @@
 	}
 	.button-1ZiXG9:hover {
 		@include hsl(12%);
+	}
+
+	// Chatbox
+	.form-2fGMdU {
+		padding: 0;
+		margin: 0;
+		min-height: 53px;
+	}
+	.channelTextArea-rNsIhG {
+		margin-bottom: 0;
+	}
+	.scrollableContainer-2NUZem {
+		@include hsl(2%);
+		min-height: 53px;
+	}
+	.slateTextArea-1Mkdgw,
+	.placeholder-37qJjk {
+		padding: 16px 0 15px;
+		box-sizing: border-box;
+	}
+	.attachButton-2WznTc {
+		padding: 16px 16px 15px;
+		box-sizing: border-box;
+		height: 53px;
+	}
+	.buttons-3JBrkn,
+	.emojiButton-3uL3Aw {
+		min-height: 53px;
 	}
 
 	// Typing
@@ -111,51 +138,5 @@
 	}
 	.replyBar-1YLQ2F {
 		@include hsl(6%);
-	}
-}
-
-// Chatbox
-#app-mount {
-	.chat-15Vmww,
-	.chat-3bRxxu {
-		&::before {
-			content: none;
-		}
-
-		// Chat icon thingy
-		.iconWrapper-L3hQuc {
-			@include hsl(8%);
-		}
-
-		// Chatbox
-		.form-2fGMdU {
-			padding: 0;
-			margin: 0;
-			min-height: 53px;
-			&::before {
-				content: none;
-			}
-		}
-		.channelTextArea-rNsIhG {
-			margin-bottom: 0;
-		}
-		.scrollableContainer-2NUZem {
-			@include hsl(2%);
-			min-height: 53px;
-		}
-		.slateTextArea-1Mkdgw,
-		.placeholder-37qJjk {
-			padding: 16px 0 15px;
-			box-sizing: border-box;
-		}
-		.attachButton-2WznTc {
-			padding: 16px 16px 15px;
-			box-sizing: border-box;
-			height: 53px;
-		}
-		.buttons-3JBrkn,
-		.emojiButton-3uL3Aw {
-			min-height: 53px;
-		}
 	}
 }

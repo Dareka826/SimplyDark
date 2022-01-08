@@ -1,7 +1,7 @@
 {
   "name": "simplydark",
   "version": "1.0.0",
-  "description": "Changes the status icons to wrap around the avatar.",
+  "description": "Discord redesigned to be simplified. Design by jacktompsett on Behance.",
   "repository": "https://github.com/DiscordStyles/SimplyDark.git",
   "author": "Gibbu <Gibbu_@hotmail.com>",
   "license": "MIT",
@@ -10,12 +10,10 @@
     "dev": "node ./scripts/dev",
     "build": "node ./scripts/build"
   },
-  "dependencies": {
-    "autoprefixer": "^10.3.7",
-    "postcss": "^8.3.9",
-    "sass": "^1.42.1"
-  },
   "devDependencies": {
-    "chokidar": "^3.5.2"
+    "autoprefixer": "^10.3.1",
+    "chokidar": "^3.5.2",
+    "postcss": "^8.3.6",
+    "sass": "^1.35.2"
   }
 }
