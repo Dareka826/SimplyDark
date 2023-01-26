@@ -34,7 +34,7 @@
 
 /* Make space for 2 columns */
 .wrapper-1_HaEi {
-	width: 144px;
+	width: 144px !important;
 }
 
 /* Wrap servers into 2 columns */
